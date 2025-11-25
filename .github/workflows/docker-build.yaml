@@ -41,7 +41,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=${IMAGE_NAME,,}" >>${GITHUB_ENV}
           echo "FULL_IMAGE_NAME=ghcr.io/${IMAGE_NAME,,}" >>${GITHUB_ENV}
-          echo "DOCKERHUB_IMAGE_NAME=xiaolewo/chatgo" >>${GITHUB_ENV}
+          echo "DOCKERHUB_IMAGE_NAME=1175519737acom/zhangyuan" >>${GITHUB_ENV}
         env:
           IMAGE_NAME: '${{ github.repository }}'
 
@@ -176,7 +176,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=${IMAGE_NAME,,}" >>${GITHUB_ENV}
           echo "FULL_IMAGE_NAME=ghcr.io/${IMAGE_NAME,,}" >>${GITHUB_ENV}
-          echo "DOCKERHUB_IMAGE_NAME=xiaolewo/chatgo" >>${GITHUB_ENV}
+          echo "DOCKERHUB_IMAGE_NAME=1175519737acom/zhangyuan" >>${GITHUB_ENV}
         env:
           IMAGE_NAME: '${{ github.repository }}'
 
@@ -312,7 +312,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=${IMAGE_NAME,,}" >>${GITHUB_ENV}
           echo "FULL_IMAGE_NAME=ghcr.io/${IMAGE_NAME,,}" >>${GITHUB_ENV}
-          echo "DOCKERHUB_IMAGE_NAME=xiaolewo/chatgo" >>${GITHUB_ENV}
+          echo "DOCKERHUB_IMAGE_NAME=1175519737acom/zhangyuan" >>${GITHUB_ENV}
         env:
           IMAGE_NAME: '${{ github.repository }}'
 
@@ -438,7 +438,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=${IMAGE_NAME,,}" >>${GITHUB_ENV}
           echo "FULL_IMAGE_NAME=ghcr.io/${IMAGE_NAME,,}" >>${GITHUB_ENV}
-          echo "DOCKERHUB_IMAGE_NAME=xiaolewo/chatgo" >>${GITHUB_ENV}
+          echo "DOCKERHUB_IMAGE_NAME=1175519737acom/zhangyuan" >>${GITHUB_ENV}
         env:
           IMAGE_NAME: '${{ github.repository }}'
 
@@ -518,7 +518,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=${IMAGE_NAME,,}" >>${GITHUB_ENV}
           echo "FULL_IMAGE_NAME=ghcr.io/${IMAGE_NAME,,}" >>${GITHUB_ENV}
-          echo "DOCKERHUB_IMAGE_NAME=xiaolewo/chatgo" >>${GITHUB_ENV}
+          echo "DOCKERHUB_IMAGE_NAME=1175519737acom/zhangyuan" >>${GITHUB_ENV}
         env:
           IMAGE_NAME: '${{ github.repository }}'
 
@@ -599,7 +599,7 @@ jobs:
         run: |
           echo "IMAGE_NAME=${IMAGE_NAME,,}" >>${GITHUB_ENV}
           echo "FULL_IMAGE_NAME=ghcr.io/${IMAGE_NAME,,}" >>${GITHUB_ENV}
-          echo "DOCKERHUB_IMAGE_NAME=xiaolewo/chatgo" >>${GITHUB_ENV}
+          echo "DOCKERHUB_IMAGE_NAME=1175519737acom/zhangyuan" >>${GITHUB_ENV}
         env:
           IMAGE_NAME: '${{ github.repository }}'
 
