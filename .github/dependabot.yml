@@ -4,7 +4,7 @@ updates:
     directory: '/'
     schedule:
       interval: monthly
-    target-branch: 'release'
+    target-branch: 'default'
     open-pull-requests-limit: 3
     versioning-strategy: increase
     labels:
@@ -16,7 +16,7 @@ updates:
     directory: '/backend'
     schedule:
       interval: monthly
-    target-branch: 'release'
+    target-branch: 'default'
     open-pull-requests-limit: 3
     versioning-strategy: increase
     labels:
@@ -24,13 +24,13 @@ updates:
       - 'python'
       - 'backend'
     reviewers:
-      - 'xiaolewo'
+      - 'habitual-it'
 
   - package-ecosystem: npm
     directory: '/'
     schedule:
       interval: monthly
-    target-branch: 'release'
+    target-branch: 'default'
     open-pull-requests-limit: 5
     versioning-strategy: increase
     labels:
@@ -38,7 +38,7 @@ updates:
       - 'javascript'
       - 'frontend'
     reviewers:
-      - 'xiaolewo'
+      - 'habitual-it'
     # 只忽略已知有严重问题的特定版本
     ignore:
       # 暂时忽略这些包的早期问题版本
@@ -52,7 +52,7 @@ updates:
     directory: '/'
     schedule:
       interval: monthly
-    target-branch: 'release'
+    target-branch: 'default'
     open-pull-requests-limit: 2
     versioning-strategy: increase
     labels:
@@ -60,4 +60,4 @@ updates:
       - 'github-actions'
       - 'ci-cd'
     reviewers:
-      - 'xiaolewo'
+      - 'habitual-it'
